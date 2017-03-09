@@ -1,5 +1,5 @@
 var gulp = require('gulp');
 
 gulp.task('default', function() {
-  console.log('Some output');
+  console.log('Some output should appear');
 });
