@@ -1,0 +1,17 @@
+box: node
+
+build:
+  steps:
+    - npm-install
+
+    - script:
+      name: build
+      code: npm run build
+
+other-build:
+  steps:
+    - npm-install
+
+    - script:
+      name: build
+      code: npm run build

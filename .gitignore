@@ -1,3 +1,6 @@
+# Wercker output
+.wercker
+
 # Logs
 logs
 *.log
